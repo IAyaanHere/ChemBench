@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment setups
+.env
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasets (Keep large files out of Git)
+chembench/datasets/raw/*
+chembench/datasets/processed/*
+*.csv
+*.h5
+!chembench/datasets/sample_data.csv 
+
+# Model Checkpoints and Logs
+*.pt
+*.pth
+*.pkl
+*.joblib
+wandb/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
