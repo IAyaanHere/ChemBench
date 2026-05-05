@@ -553,7 +553,7 @@ datasets/
 
 ## Contributing New Datasets
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding new datasets to ChemBench.
+See [CONTRIBUTING.md](https://github.com/IAyaanHere/ChemBench/blob/main/CONTRIBUTING.md) for guidelines on adding new datasets to ChemBench.
 
 Requirements for new datasets:
 - Publicly available
