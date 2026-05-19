@@ -36,3 +36,12 @@ results/*.log
 # OS generated
 .DS_Store
 Thumbs.db
+
+# Frontend dependencies and builds
+site/node_modules/
+site/.next/
+site/dist/
+site/build/
+site/.env.local
+site/src/frontend/node_modules/
+site/src/frontend/dist/

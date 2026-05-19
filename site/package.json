@@ -1,0 +1,14 @@
+{
+  "name": "chembench-site",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --dir ./src/frontend run dev",
+    "build": "pnpm --dir ./src/frontend run build",
+    "typecheck": "pnpm --dir ./src/frontend run typecheck"
+  }
+}
