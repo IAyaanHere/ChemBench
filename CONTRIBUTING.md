@@ -4,7 +4,7 @@ Thank you for your interest in contributing to **ChemBench**! This project aims 
 
 ---
 
-## Table of Contents
+## Table of  Contents
 
 1. [Code of Conduct](#code-of-conduct)
 2. [How to Report Bugs](#how-to-report-bugs)
