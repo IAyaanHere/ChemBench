@@ -1,36 +1,133 @@
-# 🧪 ChemBench: The Standardized Benchmark Suite for ML in Chemical Engineering
+<div align="center">
+
+# 🧪 ChemBench — Standardized Benchmark Suite for ML in Chemical Engineering
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Framework: PyTorch & Scikit-Learn](https://img.shields.io/badge/Framework-PyTorch%20%7C%20Scikit--Learn-orange.svg)]()
+[![Dashboard: Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-red.svg)]()
 
-**ChemBench** is an open-source framework and benchmark suite designed to bridge the gap between advanced Machine Learning and core Chemical Engineering. It provides standardized, unified access to complex process engineering datasets, robust baselines, and evaluation metrics.
+### Bridging Artificial Intelligence and Chemical Engineering
 
-## ✨ Features
-- 📦 **Curated Datasets:** Tennessee Eastman Process (TEP), QM9, CheMixHub, and more.
-- 🧹 **Built-in Preprocessing:** Ready-to-use techniques for handling class imbalance and time-series normalization.
-- 📊 **Standardized Evaluation:** Domain-specific metrics alongside standard ML metrics.
+An open-source benchmark infrastructure providing curated datasets, baseline models, standardized preprocessing pipelines, and interactive evaluation tools for Chemical Engineering ML research.
 
-## 💻 Installation
+</div>
 
-Clone the repository and install the package in editable mode:
+---
+
+# 📌 Why ChemBench?
+
+Machine Learning research in Chemical Engineering suffers from:
+- Scattered datasets
+- Repetitive preprocessing
+- No standardized benchmarks
+
+ChemBench provides a unified framework for:
+- Dataset loading
+- Data preprocessing
+- Standardized train/test splits
+- Baseline benchmarking
+- Evaluation metrics
+- Interactive visualization
+
+---
+
+# ✨ Features
+
+- 📦 Curated benchmark datasets
+- 🤖 Traditional ML + Deep Learning baselines
+- 🧹 Standardized preprocessing pipelines
+- 📊 Streamlit dashboard
+- ⚡ Unified API for experiments
+
+---
+
+# ⚡ Installation
 
 ```bash
 git clone https://github.com/IAyaanHere/ChemBench.git
+
 cd ChemBench
+
 pip install -e .
 ```
 
-## 🚀 Quick Start
+---
+
+# 🚀 Quick Start
 
 ```python
-from chembench.datasets import DatasetLoader
-from chembench.baselines import RandomForestBaseline
+from chembench.data.loader import ChemBenchDataLoader
+from chembench.models import RandomForestModel
 
-# Load standardized data
-loader = DatasetLoader(name='tennessee_eastman')
+loader = ChemBenchDataLoader("esol")
+
 X_train, X_test, y_train, y_test = loader.get_splits()
 
-# Train baseline
-model = RandomForestBaseline()
+model = RandomForestModel()
 model.fit(X_train, y_train)
+
+metrics = model.evaluate(X_test, y_test)
+
+print(metrics)
 ```
+
+---
+
+# 📈 Launch Dashboard
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🗃️ Supported Datasets
+
+| Dataset | Domain | Task |
+|---|---|---|
+| Tennessee Eastman Process | Process Control | Classification |
+| QM9 | Quantum Chemistry | Regression |
+| ESOL | Molecular Solubility | Regression |
+| MoleculeNet | Molecular ML | Multi-task |
+| CheMixHub | Mixture Properties | Regression |
+
+---
+
+# 🛠️ Tech Stack
+
+- Python
+- PyTorch
+- Scikit-Learn
+- Pandas
+- RDKit
+- Streamlit
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+You can contribute by:
+- Adding datasets
+- Implementing models
+- Improving pipelines
+- Fixing bugs
+- Improving documentation
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+<div align="center">
+
+### Built for AI-driven Chemical Engineering ⚗️
+
+⭐ Star the repository if you like the project.
+
+</div>
