@@ -1,0 +1,9 @@
+{
+  "dataset_name": "lipophilicity",
+  "num_samples": 4200,
+  "num_columns": 5,
+  "target_columns": [
+    "exp"
+  ],
+  "task_type": "Regression"
+}

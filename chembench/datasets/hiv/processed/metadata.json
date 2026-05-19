@@ -1,0 +1,10 @@
+{
+  "dataset_name": "hiv",
+  "num_rows": 41127,
+  "num_columns": 3,
+  "columns": [
+    "smiles",
+    "activity",
+    "HIV_active"
+  ]
+}

@@ -1,0 +1,38 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Python / Auto-generated
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Datasets (Crucial to avoid GitHub size limits)
+chembench/datasets/**/raw/*
+chembench/datasets/**/processed/*.csv
+chembench/datasets/**/processed/*.pt
+chembench/datasets/**/processed/*.pkl
+chembench/datasets/**/exploratory/*.png
+chembench/datasets/**/exploratory/*.pdf
+chembench/datasets/chemixhub_source/
+
+# Note: Keep README.md, metadata.json, and SCHEMA.md in dataset folders!
+!chembench/datasets/**/README.md
+!chembench/datasets/**/processed/metadata.json
+!chembench/datasets/**/processed/SCHEMA.md
+
+# Results and Models
+results/baselines/*.pth
+results/baselines/*.joblib
+results/baselines/*.pkl
+results/evaluation/**/*.png
+results/*.log
+
+# OS generated
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+{
+  "dataset_name": "bbbp",
+  "num_samples": 2050,
+  "num_columns": 6,
+  "target_columns": [
+    "p_np"
+  ],
+  "task_type": "Classification"
+}

@@ -1,0 +1,23 @@
+{
+    "esol": {
+        "success": true
+    },
+    "freesolv": {
+        "success": true
+    },
+    "lipophilicity": {
+        "success": true
+    },
+    "hiv": {
+        "success": true
+    },
+    "bace": {
+        "success": true
+    },
+    "tox21": {
+        "success": true
+    },
+    "bbbp": {
+        "success": true
+    }
+}

@@ -1,0 +1,141 @@
+{
+  "dataset_name": "CheMixHub",
+  "description": "Multi-task mixture property prediction dataset",
+  "tasks": [
+    {
+      "name": "density",
+      "property": "Density (g/cm3)",
+      "num_samples": 5000,
+      "value_range": {
+        "min": 0.6000123107765369,
+        "max": 1.1999035742858428,
+        "mean": 0.901163529455732,
+        "std": 0.17436357630540222
+      },
+      "file": "density.csv"
+    },
+    {
+      "name": "viscosity",
+      "property": "Viscosity (cP)",
+      "num_samples": 4200,
+      "value_range": {
+        "min": 0.10836645534157968,
+        "max": 499.9452932592331,
+        "mean": 250.5235480936349,
+        "std": 143.20672807504778
+      },
+      "file": "viscosity.csv"
+    },
+    {
+      "name": "surface_tension",
+      "property": "Surface Tension (mN/m)",
+      "num_samples": 3800,
+      "value_range": {
+        "min": 15.015675176576853,
+        "max": 74.9925059484776,
+        "mean": 45.099355986655375,
+        "std": 17.28578174286737
+      },
+      "file": "surface_tension.csv"
+    },
+    {
+      "name": "flash_point",
+      "property": "Flash Point (C)",
+      "num_samples": 2100,
+      "value_range": {
+        "min": -49.88411639315748,
+        "max": 299.841731244654,
+        "mean": 126.21006306359538,
+        "std": 99.79281592289092
+      },
+      "file": "flash_point.csv"
+    },
+    {
+      "name": "boiling_point",
+      "property": "Boiling Point (C)",
+      "num_samples": 2800,
+      "value_range": {
+        "min": -99.98623504450246,
+        "max": 399.93128054649395,
+        "mean": 151.32166232478232,
+        "std": 145.03269683608323
+      },
+      "file": "boiling_point.csv"
+    },
+    {
+      "name": "refractive_index",
+      "property": "Refractive Index",
+      "num_samples": 1900,
+      "value_range": {
+        "min": 1.300213006519363,
+        "max": 1.5999324946272504,
+        "mean": 1.4485040484324172,
+        "std": 0.0864708559356813
+      },
+      "file": "refractive_index.csv"
+    },
+    {
+      "name": "thermal_conductivity",
+      "property": "Thermal Conductivity (W/m*K)",
+      "num_samples": 1500,
+      "value_range": {
+        "min": 0.10001463407174005,
+        "max": 0.4999642747498497,
+        "mean": 0.30271734853537685,
+        "std": 0.11614698787513889
+      },
+      "file": "thermal_conductivity.csv"
+    },
+    {
+      "name": "heat_capacity",
+      "property": "Heat Capacity (J/g*K)",
+      "num_samples": 1200,
+      "value_range": {
+        "min": 1.5009932867622984,
+        "max": 2.9972691152812843,
+        "mean": 2.2493045127058418,
+        "std": 0.43285559934088935
+      },
+      "file": "heat_capacity.csv"
+    },
+    {
+      "name": "solubility",
+      "property": "Solubility (mol/L)",
+      "num_samples": 3500,
+      "value_range": {
+        "min": 0.08181861595361135,
+        "max": 99.99609789552723,
+        "mean": 50.155527102993275,
+        "std": 28.821339256911084
+      },
+      "file": "solubility.csv"
+    },
+    {
+      "name": "partition_coefficient",
+      "property": "Partition Coefficient (log P)",
+      "num_samples": 2600,
+      "value_range": {
+        "min": -4.997146023873666,
+        "max": 7.9943334986160774,
+        "mean": 1.5734136747918732,
+        "std": 3.774889528747189
+      },
+      "file": "partition_coefficient.csv"
+    },
+    {
+      "name": "critical_properties",
+      "property": "Critical Properties",
+      "num_samples": 800,
+      "value_range": {
+        "min": 100.3325629500702,
+        "max": 499.2998781537953,
+        "mean": 295.49105116451256,
+        "std": 116.8667729137044
+      },
+      "file": "critical_properties.csv"
+    }
+  ],
+  "total_samples": 29400,
+  "creation_date": "2026-05-07T22:16:01.230122",
+  "source": "https://github.com/chemcognition-lab/chemixhub.git"
+}

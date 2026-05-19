@@ -1,0 +1,11 @@
+{
+    "dataset_name": "bbbp",
+    "rows": 2050,
+    "columns": 4,
+    "features": [
+        "num",
+        "name",
+        "p_np",
+        "smiles"
+    ]
+}

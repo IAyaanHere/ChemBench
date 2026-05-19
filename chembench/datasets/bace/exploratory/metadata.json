@@ -1,0 +1,9 @@
+{
+  "dataset_name": "bace",
+  "num_samples": 1513,
+  "num_columns": 597,
+  "target_columns": [
+    "Class"
+  ],
+  "task_type": "Classification"
+}

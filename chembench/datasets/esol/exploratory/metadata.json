@@ -1,0 +1,9 @@
+{
+  "dataset_name": "esol",
+  "num_samples": 1128,
+  "num_columns": 12,
+  "target_columns": [
+    "measured log solubility in mols per litre"
+  ],
+  "task_type": "Regression"
+}

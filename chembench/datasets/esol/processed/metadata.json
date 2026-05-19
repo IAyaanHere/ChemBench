@@ -1,0 +1,17 @@
+{
+  "dataset_name": "esol",
+  "num_rows": 1128,
+  "num_columns": 10,
+  "columns": [
+    "Compound ID",
+    "ESOL predicted log solubility in mols per litre",
+    "Minimum Degree",
+    "Molecular Weight",
+    "Number of H-Bond Donors",
+    "Number of Rings",
+    "Number of Rotatable Bonds",
+    "Polar Surface Area",
+    "measured log solubility in mols per litre",
+    "smiles"
+  ]
+}

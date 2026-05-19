@@ -1,0 +1,10 @@
+{
+  "datasets": [
+    {
+      "dataset_name": "ESOL",
+      "csv_path": "chembench\\datasets\\esol\\processed\\esol.csv",
+      "metadata_path": "chembench\\datasets\\esol\\processed\\metadata.json",
+      "num_samples": 1128
+    }
+  ]
+}

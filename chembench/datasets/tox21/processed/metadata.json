@@ -1,0 +1,21 @@
+{
+    "dataset_name": "tox21",
+    "rows": 7831,
+    "columns": 14,
+    "features": [
+        "NR-AR",
+        "NR-AR-LBD",
+        "NR-AhR",
+        "NR-Aromatase",
+        "NR-ER",
+        "NR-ER-LBD",
+        "NR-PPAR-gamma",
+        "SR-ARE",
+        "SR-ATAD5",
+        "SR-HSE",
+        "SR-MMP",
+        "SR-p53",
+        "mol_id",
+        "smiles"
+    ]
+}

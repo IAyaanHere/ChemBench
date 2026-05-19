@@ -1,0 +1,9 @@
+{
+  "dataset_name": "hiv",
+  "num_samples": 41127,
+  "num_columns": 5,
+  "target_columns": [
+    "HIV_active"
+  ],
+  "task_type": "Classification"
+}

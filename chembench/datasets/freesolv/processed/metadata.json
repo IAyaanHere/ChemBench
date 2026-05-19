@@ -1,0 +1,11 @@
+{
+  "dataset_name": "freesolv",
+  "num_rows": 642,
+  "num_columns": 4,
+  "columns": [
+    "iupac",
+    "smiles",
+    "expt",
+    "calc"
+  ]
+}

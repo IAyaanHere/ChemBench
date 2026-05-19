@@ -1,0 +1,9 @@
+{
+  "dataset_name": "freesolv",
+  "num_samples": 642,
+  "num_columns": 6,
+  "target_columns": [
+    "expt"
+  ],
+  "task_type": "Regression"
+}

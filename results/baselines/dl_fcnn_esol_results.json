@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-05-17T18:46:20.359553",
+  "dataset": "esol",
+  "model": "fcnn",
+  "input_dim": 7,
+  "train_size": 789,
+  "val_size": 113,
+  "test_size": 226,
+  "hyperparameters": {
+    "epochs": 100,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 10
+  },
+  "metrics": {
+    "mse": 1.1710334200368493,
+    "mae": 0.8812866978645323,
+    "rmse": 1.0821429757831675
+  }
+}

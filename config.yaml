@@ -1,0 +1,33 @@
+dataset:
+  name: 'esol'
+  target_col: null  # Auto-detect from metadata if null
+
+models:
+  - name: 'linear'
+    class: 'LinearRegressionModel'
+  - name: 'random_forest'
+    class: 'RandomForestModel'
+    params:
+      n_estimators: 100
+  - name: 'gradient_boosting'
+    class: 'GradientBoostingModel'
+    params:
+      n_estimators: 100
+  # - name: 'lightgbm'
+  #   class: 'LightGBMModel'
+  #   params:
+  #     num_leaves: 31
+  - name: 'mlp'
+    class: 'MLPModel'
+    params:
+      hidden_layer_sizes: [100, 50]
+
+training:
+  random_seed: 42
+  test_size: 0.2
+  val_size: 0.1
+  use_scaffold_split: true  # Use scaffold_split for molecular datasets, random_split for others
+
+logging:
+  save_dir: './results/baselines/'
+  verbose: true
